@@ -1,0 +1,455 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Part1 {
+        background-image: url(Pic1.jpg);
+        background-size: cover; 
+        background-position: center;
+        background-blend-mode: overlay; 
+        background-color: rgb(198, 199, 201);
+        text-align: center; 
+        line-height: 40px; 
+        font-size: 45px; 
+        padding: 20px; 
+        padding-bottom: 130px; 
+    }
+
+    .Part1 h1 {
+        padding-top: 100px; 
+    }
+
+    .btn {
+        width: 380px; 
+        height: 90px; 
+        text-align: center; 
+        background: none;
+        font-size: 36px; 
+        text-transform: uppercase; 
+        border: 2px black solid; 
+        cursor: pointer;
+    }
+
+    .btn a{
+        color: black; 
+        text-decoration: none;
+        width: 100%; 
+        height: 100%;
+        
+    }
+    .btn a:hover, .btn:hover {
+        color: white; 
+        background-color: rgb(27, 27, 27);
+    }
+
+    /* Why Us? */
+
+    .headwhyus {
+        grid-row: 1;
+        grid-column: 1/4;
+        text-align: center;
+        font-size: 50px; 
+        padding-top: 100px;
+        padding-bottom: 100px;  
+    }
+
+    .GridPart2 {
+        display: grid;
+        grid-template-rows: .2fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 10fr 1fr;
+        height: 100%;
+        justify-items: center;
+        row-gap: 60px; 
+        padding-bottom: 70px; 
+    }
+
+    .Icon1 {
+        grid-column: 2;
+        grid-row: 2;
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 250px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%; 
+    }
+
+        .Icon1Pic {
+            justify-content: center;
+            grid-row: 1;
+            grid-column: 2/10;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Icon1Para {
+            text-align: center;
+            grid-row: 2;
+            grid-column: 3/9;
+            width: 450px;
+        }
+
+    .Icon2 {
+        grid-column: 2; 
+        grid-row: 3; 
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 290px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%;
+    }
+            .Icon2Pic {
+                justify-content: center;
+                grid-row: 1;
+                grid-column: 2/10;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+                text-align: center;
+            }
+            .Icon2Para {
+                text-align: center;
+                grid-row: 2;
+                grid-column: 3/9;
+                max-width: 450px;
+            }
+
+    .Icon3 {
+        grid-column: 2; 
+        grid-row: 4; 
+        text-align: center; 
+        display: grid; 
+        grid-template-rows: 290px 1fr;
+        grid-template-columns: repeat(10, 1fr);
+        height: 100%;
+    }
+            .Icon3Pic {
+                justify-content: center;
+                grid-row: 1;
+                grid-column: 2/10;
+                overflow: hidden;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+            .Icon3Para {
+                text-align: center;
+                grid-row: 2;
+                grid-column: 3/9;
+                max-width: 450px;
+            }
+
+    .Icon1Para, .Icon2Para, .Icon3Para {
+        font-size: 39px; 
+        margin-bottom: -50px; 
+    }
+
+/* Custumer Review */
+
+/* Slideshow container */
+.slideshowheading {
+    margin-left: 15px; 
+}
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    font-size: 40px; 
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 60px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/*escaperooms*/
+.ouramazingscaperooms {
+        font-size: 65px; 
+        text-align: center; 
+        padding-top: 80px; 
+        padding-bottom: 80px;
+        background: black; 
+        color: white;  
+}
+    .Part3Grid {
+        grid-template: auto;
+        display:grid;
+        text-align: center; 
+        margin-left: auto;
+        margin-right: auto;
+        row-gap: 100px; 
+        height: 100%;
+        width: 75%;
+        padding-top: 90px; 
+    }
+
+    .escaperoom1 {
+        height: 1300px; 
+        display: grid; 
+        grid-template-rows: 1fr 7fr 1fr ; 
+        box-shadow: 5px 10px 5px lightblue;
+        margin-top: 30px; 
+    }
+        .escaperoomlevel {
+            grid-row: 1; 
+            background-color: rgb(46, 43, 43); 
+            color: white; 
+            font-size: 70px; 
+            text-align: center; 
+            letter-spacing: 3px; 
+            padding-top: 15px;
+        }
+        .timetower {
+            grid-row: 2; 
+            background: green; 
+            background-image: url(timetower.jpg);
+            background-size: cover; 
+            background-position: center; 
+            background-blend-mode: overlay; 
+            background-color: rgb(221, 231, 235); 
+            text-align: center; 
+            font-size: 55px; 
+            padding-top: 20px; 
+            font-family: 'Akronim', cursive;
+        }
+        .moreinfobutton {
+            width: 100%;
+            float: left;
+            background: crimson; 
+            color: white; 
+            height: 100%;
+            text-decoration: none;
+            border: 1px red solid;
+            font-size: 45px;   
+            grid-row: 3; 
+            height: 150px;
+        }
+
+        .Booknowbutton {
+            width: 100%; 
+            float:right; 
+            background-color: rgb(0, 184, 0); 
+            color: rgb(255, 255, 255); 
+            height: 100%; 
+            text-decoration: none; 
+            border: 1px rgb(81, 219, 81) solid; 
+            font-size: 45px;  
+            grid-row: 2; 
+            height: 150px;
+        }
+/* Private Parties */
+
+.otherevents {
+    font-size: 90px; 
+    text-align: center; 
+    margin-top: 80px; 
+    margin-bottom: 15px; 
+    padding-top: 108px; 
+}
+
+.othereventsdiv {
+    padding-bottom: 40px; 
+}
+
+.party-wrapper {
+    width: 88%; 
+    display: grid; 
+    grid-template-rows: 1fr 1fr .5fr; 
+    grid-template-columns: auto; 
+    justify-content: center;
+    justify-items: center; 
+    margin-left: 6%; 
+    row-gap: 5px; 
+    height: 600px;
+    background-color: lightblue; 
+}
+
+.party-wrapper2 {
+    width: 88%; 
+    display: grid; 
+    grid-template-rows: 1fr 1fr .5fr; 
+    grid-template-columns: auto; 
+    justify-content: center;
+    justify-items: center; 
+    margin-left: 6%; 
+    row-gap: 15px; 
+    height: 700px;
+    background-color: lightgreen; 
+}
+
+.party-wrapper2 .words h2 {
+    padding-bottom: 15px; 
+}
+
+.party-img {
+    grid-row: 1; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.words {
+    grid-row: 2; 
+    text-align: center; 
+    width: 90%; 
+}
+    .words h2 {
+        font-size: 47px;
+    }
+    .words p {
+        font-size: 36px; 
+    }
+.learnmorediv {
+    grid-row: 3; 
+    width: 175px; 
+    height: 75px;
+}
+.Learnmorebutton {
+    text-align: center; 
+    width: 175px; 
+    height: 65px;
+    background-color: red; 
+    font-size: 27px; 
+    color: white; 
+    border-radius: 60px; 
+    font-style: italic
+}
+
+/* Contact Us */
+
+.contact {
+    padding-top: 65px; 
+    background: black;
+    display: grid; 
+    grid-row: 50% 50%;
+    grid-column: 1fr; 
+    justify-content: center; 
+    justify-items: center;
+    width: 100%; 
+    row-gap: 55px; 
+    padding: 80px; 
+}
+
+.conh4 {
+    grid-row: 1; 
+    grid-column: 1; 
+    width: 100%; 
+    font-size: 40px; 
+    letter-spacing: 3.5px; 
+    color: white; 
+}
+.contactbutton {
+    grid-row: 2; 
+}
+.contactusbutton {
+    width: 235px; 
+    background: rgb(247, 198, 37);
+    border: 1.5px solid white;  
+    height: 75px; 
+    font-size: 25px; 
+}
+
+/* Lines */
+
+.hrus {
+    border: red 4px solid; 
+    width: 28%;
+    text-align: center; 
+    display: inline-block;
+}
+
+.otherhr {
+    border: 5px red solid; 
+    width: 14%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+@media screen and (min-width: 1050px) {
+    .Part1 {
+        font-size: 35px; 
+    }
+    .btn {
+        width: 210px; 
+        font-size: 25px; 
+        height: 70px; 
+    }
+    .iconimg1 {
+        width: 130px;
+    }
+    .Icon1Para, .Icon2Para, .Icon3Para {
+        font-size: 30px; 
+        line-height: 40px; 
+        margin: 0;
+    }
+    .headwhyus {
+        font-size: 25px; 
+        padding-top: 15px;
+        padding-bottom: 10px;
+        grid-row:1;
+    }
+    .GridPart2 {
+        background: lightgreen;
+        display: grid; 
+        grid-template-rows: 10% 30% 30% 30%; 
+        grid-template-columns: 5% 90% 5%;
+        width: 100%;
+        height: 100%;
+        row-gap: 0;
+        padding-bottom: 0;
+    }
+
+    .Icon1 {
+        background: darkgoldenrod;
+        grid-row: 2; 
+        grid-column: 2; 
+        min-width: 100%; 
+        display: grid; 
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 1; 
+        text-align: unset;
+    }
+            .Icon1Pic {
+                background: lightblue; 
+                grid-column: 1; 
+                grid-row: 1; 
+                margin-left: auto;
+                margin-right: auto; 
+            }
+            .Icon1Para {
+                background: lightyellow;
+                width: 100%; 
+                grid-row: 1; 
+                grid-column: 2;
+                text-align: center;  
+            }
+    
+}
