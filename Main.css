@@ -213,11 +213,11 @@
         padding-top: 90px; 
     }
 
-    .escaperoom1 {
-        height: 1300px; 
+    .escaperoom1, .escaperoom2, .escaperoom3 {
+        height: 1100px; 
         display: grid; 
         grid-template-rows: 1fr 7fr 1fr ; 
-        box-shadow: 5px 10px 5px lightblue;
+        box-shadow: 10px 10px 5px rgb(142, 145, 146);
         margin-top: 30px; 
     }
         .escaperoomlevel {
@@ -291,7 +291,6 @@
     margin-left: 6%; 
     row-gap: 5px; 
     height: 600px;
-    background-color: lightblue; 
 }
 
 .party-wrapper2 {
@@ -302,9 +301,8 @@
     justify-content: center;
     justify-items: center; 
     margin-left: 6%; 
-    row-gap: 15px; 
+    row-gap: 10px; 
     height: 700px;
-    background-color: lightgreen; 
 }
 
 .party-wrapper2 .words h2 {
@@ -332,7 +330,7 @@
     width: 175px; 
     height: 75px;
 }
-.Learnmorebutton {
+.Learnmorebutton, .Learnmorebutton2 {
     text-align: center; 
     width: 175px; 
     height: 65px;
@@ -488,16 +486,126 @@
         height: 50%; 
         column-gap: 21px;  
     }
-         .Icon3Pic {
+            .Icon3Pic {
                 grid-column: 1; 
                 margin-left: auto; 
                 margin-right: auto; 
                 justify-content: unset;
                 margin-top: 0; 
             }
-        .Icon3Para {
+            .Icon3Para {
                 grid-row: 1; 
                 grid-column: 2; 
                 width: 100%; 
+            }
+    .ouramazingscaperooms {
+        font-size: 45px; 
+        padding: 40px; 
+    }
+    .Part3Grid {
+        display: grid; 
+        grid-template-rows: 1; 
+        grid-template-columns: 1% 30% 30% 30% 1%;
+        margin: 0;
+        width: 95%; 
+        padding-top: 50px;
+        grid-template: unset; 
+        row-gap: none; 
+        margin-left: auto; 
+        margin-right: auto; 
+        column-gap: 20px;  
+    }
+            .escaperoomlevel {
+                font-size: 30px; 
+                padding-top: 10px;
+                padding-bottom: 10px; 
+                grid-row: 1; 
+            }
+            .escaperoom1 {
+                grid-template-rows: .5fr 7fr 1fr ; 
+                grid-row: 1; 
+                grid-column: 2; 
+                width: 100%; 
+                height: 500px; 
+            }
+
+            .escaperoom2 {
+                grid-template-rows: .5fr 7fr 1fr ;
+                grid-row: 1; 
+                grid-column: 3; 
+                width: 100%;
+                height: 500px; 
+            }
+
+            .escaperoom3 {
+                grid-template-rows: .5fr 7fr 1fr ;
+                grid-row: 1; 
+                grid-column: 4; 
+                width: 100%;
+                height: 500px; 
+            }
+            .timetower h1 {
+                visibility: hidden;
+            }
+
+            .moreinfobutton, .Booknowbutton {
+                width: 50%;
+                height: 80px;
+                font-size: 20px; 
+            }
+    .partygrid {
+        display: grid; 
+        grid-template-rows: 420px; 
+        grid-template-columns: 2;
+        width: 70%;
+        margin-right: auto; 
+        margin-left: auto; 
+    }
+    .party-wrapper {
+        grid-row: 1; 
+        grid-column: 1;
+        height: 410px;
+        grid-gap: 5px;  
+    }
+    .party-wrapper2 {
+        grid-row: 1; 
+        grid-column: 2;
+        height: 410px; 
+        row-gap: 1px;  
+    }
+    .party-wrapper2, .party-wrapper {
+        font-size: 23px; 
+        width: 80%;
+    }
+    .otherevents {
+        font-size: 55px; 
+        text-align: center; 
+        margin: unset; 
+    }
+
+        .eventimg {
+            width: 120px;
+
         }
+        .words h2 {
+            font-size: 30px; 
+        }
+        .words p {
+            font-size: 20px;
+        }
+    .Learnmorebutton, .Learnmorebutton2 {
+        width: 135px; 
+        font-size: 20px; 
+        height: 45px; 
+    }
+    .mySlides {
+        padding: 45px; 
+        font-size: 25px; 
+    }
+    .slideshowheading {
+        font-size: 25px; 
+    }
+    .author {
+        padding: 10px; 
+    }
 }
