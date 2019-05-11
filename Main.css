@@ -211,8 +211,7 @@
         padding-top: 90px; 
     }
 
-    .escaperoom1, .escaperoom2, .escaperoom3, .escaperoom4, .escaperoom5, .escaperoom6
-     {
+    .escaperoom1, .escaperoom2, .escaperoom3, .escaperoom4, .escaperoom5, .escaperoom6 {
         height: 1100px; 
         display: grid; 
         grid-template-rows: 1fr 7fr 1fr ; 
