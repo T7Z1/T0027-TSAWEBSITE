@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+
+<html>
+<head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Akronim|Amatic+SC|Macondo+Swash+Caps" rel="stylesheet">
 
 <link rel="stylesheet" href="Main.css">
-<html> 
+<title>TSA</title>
+</head>
     <body>
         <nav>
         </nav>
 
         <div>
-            <div class="Part1"> 
+            <div class="Part1">
                 <h1>Welcome to</h1>
                 <h1>Escape The Ordinary!</h1><br><br><br>
                 <a href="#"></a><button class="btn">Book Now!</button></a>
@@ -22,7 +25,7 @@
                 <h1>Why Us?</h1>
                 <hr class="hrus">
             </div>
-            
+
 
             <div class="Icon1">
                 <div class="Icon1Pic">
@@ -101,7 +104,7 @@
 
          <!--Escape Rooms-->
          <div class="Part3Grid">
-  
+
              <div class="escaperoom4">
                  <div class="escaperoomlevel">
                      <h4>Level: Beginner</h4>
@@ -114,8 +117,8 @@
                       <a href="#"><button class="Booknowbutton">Book Now</button></a>
                  </div>
              </div>
-  
-  
+
+
              <div class="escaperoom5">
                   <div class="escaperoomlevel">
                       <h4>Level: Advance</h4>
@@ -128,8 +131,8 @@
                        <a href="#"><button class="Booknowbutton">Book Now</button></a>
                   </div>
               </div>
-  
-  
+
+
               <div class="escaperoom6">
                       <div class="escaperoomlevel">
                           <h4>Level: Beginner</h4>
@@ -171,7 +174,7 @@
                     <p>We offer a team building experience that bonds your comapany or oraganzation together. Our event has been praised by corporations, sports teams, and even world renowed organazations. </p>
                 </div>
                 <div>
-                    <a><button class="Learnmorebutton2">Learn More</button></a>   
+                    <a><button class="Learnmorebutton2">Learn More</button></a>
                 </div>
             </div>
         </div>
@@ -187,52 +190,52 @@
           <q>The staff was very friendly. The games are fun and a good way to spend an hour with your children. We enjoyed watching our children solve the puzzles.</q>
           <p class="author">- John Money</p>
         </div>
-      
+
         <div class="mySlides">
           <q>This was my first expirance going to an escape room...AND IT WAS AMAZING</q>
           <p class="author">- Ernest Hemming</p>
         </div>
-      
+
         <div class="mySlides">
           <q>This is outstanding time . It is better with a larger group, 6, but all around outstanding, VERY clever and smart is why more minds better to help each other out to win!</q>
           <p class="author">- Jeffery Anderson</p>
         </div>
-      
+
         <!-- Next/prev buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
         <script>var slideIndex = 1;
                 showSlides(slideIndex);
-                
+
                 function plusSlides(n) {
                   showSlides(slideIndex += n);
                 }
-                
+
                 function currentSlide(n) {
                   showSlides(slideIndex = n);
                 }
-                
+
                 function showSlides(n) {
                   var i;
                   var slides = document.getElementsByClassName("mySlides");
                   var dots = document.getElementsByClassName("dot");
-                  if (n > slides.length) {slideIndex = 1} 
+                  if (n > slides.length) {slideIndex = 1}
                     if (n < 1) {slideIndex = slides.length}
                     for (i = 0; i < slides.length; i++) {
-                      slides[i].style.display = "none"; 
+                      slides[i].style.display = "none";
                     }
                     for (i = 0; i < dots.length; i++) {
                       dots[i].className = dots[i].className.replace(" active", "");
                     }
-                  slides[slideIndex-1].style.display = "block"; 
+                  slides[slideIndex-1].style.display = "block";
                   dots[slideIndex-1].className += " active";
                 }</script>
       </div>
              <!--Contact Us-->
              <div class="contact">
                     <div class="conh4"><h4>Questions? Events? Feedback?</h4></div>
-         
+
                      <div class="contactbutton"><a href="#"><button class="contactusbutton">Contact Us!</button></a></div>
                 </div>
 
