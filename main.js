@@ -1,6 +1,8 @@
 function bookNowLink() {
-  window.location("booknow.html");
+  window.location.href ="booknow.html";
+
 }
 function contactpageswitch() {
-  window.location("contactpage.html");
+  window.location.href = "contactpage.html";
+
 }
