@@ -30,14 +30,14 @@
         border: 2px black solid;
         cursor: pointer;
     }
-  
+
 input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;   
+  width: 100%;
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
    margin-bottom: 16px;
   resize: vertical
 }
@@ -433,7 +433,9 @@ input[type=submit]:hover {
     height: 75px;
     font-size: 25px;
 }
-
+.contactusbutton:hover {
+  background: lightgreen;
+}
 /* Lines */
 
 .hrus {

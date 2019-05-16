@@ -10,7 +10,37 @@
       <div class="Part1">
         <h1>BOOK NOW</h1>
       </div>
-      
+      <div class="container">
+    <form action="#">
+
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email">
+      <label for="escaperoom">Escape Room</label>
+      <select id="escaperoom" name="escaperoom">
+        <option value="australia">The Time Tower</option>
+        <option value="canada">The Full Moon</option>
+        <option value="usa">USA</option>
+        <option value="china">China</option>
+        <option value="europe">Europe</option>
+      </select>
+
+      <label for="information">Shipping Information</label>
+      <select id="information" name="information">
+        <option value="info0">Choose an address</option>
+        <option value="info1">John Doe,<br> 1 NONAME PKWY,<br> FAKEWOOD, PA 12345-1234,<br> United States, <br>Phone Number: 123-456-6789</option>
+      </select>
+      <label for="subject">Other Requests</label>
+      <textarea id="subject" name="subject" placeholder="Anything you want different?" style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
     </header>
   </body>
 </html>
